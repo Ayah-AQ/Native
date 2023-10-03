@@ -4,6 +4,7 @@ import { Camera } from 'expo-camera';
 import { FontAwesome } from '@expo/vector-icons';
 import * as MediaLibrary from 'expo-media-library'; 
 
+
 export default function CameraScreen({ navigation }) {
   const [hasPermission, setHasPermission] = useState(null);
   const [isCameraReady, setIsCameraReady] = useState(false);
